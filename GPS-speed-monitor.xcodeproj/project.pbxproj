@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B85AEC1CCA7350003B1924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B85AEB1CCA7350003B1924 /* AppDelegate.swift */; };
-		03B85AEE1CCA7350003B1924 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B85AED1CCA7350003B1924 /* RootViewController.swift */; };
-		03B85AF01CCA7350003B1924 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B85AEF1CCA7350003B1924 /* DataViewController.swift */; };
-		03B85AF21CCA7350003B1924 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B85AF11CCA7350003B1924 /* ModelController.swift */; };
-		03B85AF51CCA7350003B1924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B85AF31CCA7350003B1924 /* Main.storyboard */; };
-		03B85AF71CCA7350003B1924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B85AF61CCA7350003B1924 /* Assets.xcassets */; };
-		03B85AFA1CCA7350003B1924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B85AF81CCA7350003B1924 /* LaunchScreen.storyboard */; };
+		03576D861CCA762800DA9ED1 /* gloshaugen.xml in Resources */ = {isa = PBXBuildFile; fileRef = 03576D851CCA762800DA9ED1 /* gloshaugen.xml */; };
+		03576D881CCA764700DA9ED1 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03576D871CCA764700DA9ED1 /* SpeedometerView.swift */; };
+		0376FDCC1CCA8F4E004E1B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0376FDCB1CCA8F4E004E1B8D /* Assets.xcassets */; };
+		03B85B101CCA755F003B1924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B85B0F1CCA755F003B1924 /* AppDelegate.swift */; };
+		03B85B121CCA755F003B1924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B85B111CCA755F003B1924 /* ViewController.swift */; };
+		03B85B151CCA755F003B1924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B85B131CCA755F003B1924 /* Main.storyboard */; };
+		03B85B1A1CCA755F003B1924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B85B181CCA755F003B1924 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03B85AE81CCA7350003B1924 /* GPS-speed-monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS-speed-monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03B85AEB1CCA7350003B1924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03B85AED1CCA7350003B1924 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		03B85AEF1CCA7350003B1924 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		03B85AF11CCA7350003B1924 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		03B85AF41CCA7350003B1924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		03B85AF61CCA7350003B1924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03B85AF91CCA7350003B1924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		03B85AFB1CCA7350003B1924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307FFB91CCBA85500CFD5BA /* Trondheim-tur.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Trondheim-tur.gpx"; sourceTree = "<group>"; };
+		0307FFBA1CCBB37400CFD5BA /* Trondheim-tur-notime.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Trondheim-tur-notime.gpx"; sourceTree = "<group>"; };
+		03576D851CCA762800DA9ED1 /* gloshaugen.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gloshaugen.xml; sourceTree = "<group>"; };
+		03576D871CCA764700DA9ED1 /* SpeedometerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
+		0376FDCB1CCA8F4E004E1B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B85B0C1CCA755F003B1924 /* GPS-speed-monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS-speed-monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B85B0F1CCA755F003B1924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B85B111CCA755F003B1924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03B85B141CCA755F003B1924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B85B191CCA755F003B1924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B85B1B1CCA755F003B1924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03B85AE51CCA7350003B1924 /* Frameworks */ = {
+		03B85B091CCA755F003B1924 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,33 +41,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03B85ADF1CCA7350003B1924 = {
+		03B85B031CCA755F003B1924 = {
 			isa = PBXGroup;
 			children = (
-				03B85AEA1CCA7350003B1924 /* GPS-speed-monitor */,
-				03B85AE91CCA7350003B1924 /* Products */,
+				03B85B0E1CCA755F003B1924 /* GPS-speed-monitor */,
+				03B85B0D1CCA755F003B1924 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03B85AE91CCA7350003B1924 /* Products */ = {
+		03B85B0D1CCA755F003B1924 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03B85AE81CCA7350003B1924 /* GPS-speed-monitor.app */,
+				03B85B0C1CCA755F003B1924 /* GPS-speed-monitor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03B85AEA1CCA7350003B1924 /* GPS-speed-monitor */ = {
+		03B85B0E1CCA755F003B1924 /* GPS-speed-monitor */ = {
 			isa = PBXGroup;
 			children = (
-				03B85AEB1CCA7350003B1924 /* AppDelegate.swift */,
-				03B85AED1CCA7350003B1924 /* RootViewController.swift */,
-				03B85AEF1CCA7350003B1924 /* DataViewController.swift */,
-				03B85AF11CCA7350003B1924 /* ModelController.swift */,
-				03B85AF31CCA7350003B1924 /* Main.storyboard */,
-				03B85AF61CCA7350003B1924 /* Assets.xcassets */,
-				03B85AF81CCA7350003B1924 /* LaunchScreen.storyboard */,
-				03B85AFB1CCA7350003B1924 /* Info.plist */,
+				0376FDCB1CCA8F4E004E1B8D /* Assets.xcassets */,
+				03B85B0F1CCA755F003B1924 /* AppDelegate.swift */,
+				03B85B111CCA755F003B1924 /* ViewController.swift */,
+				03576D871CCA764700DA9ED1 /* SpeedometerView.swift */,
+				03B85B131CCA755F003B1924 /* Main.storyboard */,
+				03B85B181CCA755F003B1924 /* LaunchScreen.storyboard */,
+				03576D851CCA762800DA9ED1 /* gloshaugen.xml */,
+				03B85B1B1CCA755F003B1924 /* Info.plist */,
+				0307FFB91CCBA85500CFD5BA /* Trondheim-tur.gpx */,
+				0307FFBA1CCBB37400CFD5BA /* Trondheim-tur-notime.gpx */,
 			);
 			path = "GPS-speed-monitor";
 			sourceTree = "<group>";
@@ -73,13 +77,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03B85AE71CCA7350003B1924 /* GPS-speed-monitor */ = {
+		03B85B0B1CCA755F003B1924 /* GPS-speed-monitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03B85AFE1CCA7350003B1924 /* Build configuration list for PBXNativeTarget "GPS-speed-monitor" */;
+			buildConfigurationList = 03B85B1E1CCA755F003B1924 /* Build configuration list for PBXNativeTarget "GPS-speed-monitor" */;
 			buildPhases = (
-				03B85AE41CCA7350003B1924 /* Sources */,
-				03B85AE51CCA7350003B1924 /* Frameworks */,
-				03B85AE61CCA7350003B1924 /* Resources */,
+				03B85B081CCA755F003B1924 /* Sources */,
+				03B85B091CCA755F003B1924 /* Frameworks */,
+				03B85B0A1CCA755F003B1924 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,26 +91,26 @@
 			);
 			name = "GPS-speed-monitor";
 			productName = "GPS-speed-monitor";
-			productReference = 03B85AE81CCA7350003B1924 /* GPS-speed-monitor.app */;
+			productReference = 03B85B0C1CCA755F003B1924 /* GPS-speed-monitor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03B85AE01CCA7350003B1924 /* Project object */ = {
+		03B85B041CCA755F003B1924 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Erik Liland";
 				TargetAttributes = {
-					03B85AE71CCA7350003B1924 = {
+					03B85B0B1CCA755F003B1924 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = A55JR8YL65;
 					};
 				};
 			};
-			buildConfigurationList = 03B85AE31CCA7350003B1924 /* Build configuration list for PBXProject "GPS-speed-monitor" */;
+			buildConfigurationList = 03B85B071CCA755F003B1924 /* Build configuration list for PBXProject "GPS-speed-monitor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,56 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 03B85ADF1CCA7350003B1924;
-			productRefGroup = 03B85AE91CCA7350003B1924 /* Products */;
+			mainGroup = 03B85B031CCA755F003B1924;
+			productRefGroup = 03B85B0D1CCA755F003B1924 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03B85AE71CCA7350003B1924 /* GPS-speed-monitor */,
+				03B85B0B1CCA755F003B1924 /* GPS-speed-monitor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03B85AE61CCA7350003B1924 /* Resources */ = {
+		03B85B0A1CCA755F003B1924 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B85AFA1CCA7350003B1924 /* LaunchScreen.storyboard in Resources */,
-				03B85AF71CCA7350003B1924 /* Assets.xcassets in Resources */,
-				03B85AF51CCA7350003B1924 /* Main.storyboard in Resources */,
+				03B85B1A1CCA755F003B1924 /* LaunchScreen.storyboard in Resources */,
+				03576D861CCA762800DA9ED1 /* gloshaugen.xml in Resources */,
+				0376FDCC1CCA8F4E004E1B8D /* Assets.xcassets in Resources */,
+				03B85B151CCA755F003B1924 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03B85AE41CCA7350003B1924 /* Sources */ = {
+		03B85B081CCA755F003B1924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B85AEE1CCA7350003B1924 /* RootViewController.swift in Sources */,
-				03B85AF21CCA7350003B1924 /* ModelController.swift in Sources */,
-				03B85AF01CCA7350003B1924 /* DataViewController.swift in Sources */,
-				03B85AEC1CCA7350003B1924 /* AppDelegate.swift in Sources */,
+				03B85B121CCA755F003B1924 /* ViewController.swift in Sources */,
+				03B85B101CCA755F003B1924 /* AppDelegate.swift in Sources */,
+				03576D881CCA764700DA9ED1 /* SpeedometerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03B85AF31CCA7350003B1924 /* Main.storyboard */ = {
+		03B85B131CCA755F003B1924 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03B85AF41CCA7350003B1924 /* Base */,
+				03B85B141CCA755F003B1924 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		03B85AF81CCA7350003B1924 /* LaunchScreen.storyboard */ = {
+		03B85B181CCA755F003B1924 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03B85AF91CCA7350003B1924 /* Base */,
+				03B85B191CCA755F003B1924 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03B85AFC1CCA7350003B1924 /* Debug */ = {
+		03B85B1C1CCA755F003B1924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		03B85AFD1CCA7350003B1924 /* Release */ = {
+		03B85B1D1CCA755F003B1924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,10 +260,11 @@
 			};
 			name = Release;
 		};
-		03B85AFF1CCA7350003B1924 /* Debug */ = {
+		03B85B1F1CCA755F003B1924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "GPS-speed-monitor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NTNU.GPS-speed-monitor";
@@ -267,10 +272,11 @@
 			};
 			name = Debug;
 		};
-		03B85B001CCA7350003B1924 /* Release */ = {
+		03B85B201CCA755F003B1924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "GPS-speed-monitor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NTNU.GPS-speed-monitor";
@@ -281,24 +287,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03B85AE31CCA7350003B1924 /* Build configuration list for PBXProject "GPS-speed-monitor" */ = {
+		03B85B071CCA755F003B1924 /* Build configuration list for PBXProject "GPS-speed-monitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03B85AFC1CCA7350003B1924 /* Debug */,
-				03B85AFD1CCA7350003B1924 /* Release */,
+				03B85B1C1CCA755F003B1924 /* Debug */,
+				03B85B1D1CCA755F003B1924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03B85AFE1CCA7350003B1924 /* Build configuration list for PBXNativeTarget "GPS-speed-monitor" */ = {
+		03B85B1E1CCA755F003B1924 /* Build configuration list for PBXNativeTarget "GPS-speed-monitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03B85AFF1CCA7350003B1924 /* Debug */,
-				03B85B001CCA7350003B1924 /* Release */,
+				03B85B1F1CCA755F003B1924 /* Debug */,
+				03B85B201CCA755F003B1924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03B85AE01CCA7350003B1924 /* Project object */;
+	rootObject = 03B85B041CCA755F003B1924 /* Project object */;
 }

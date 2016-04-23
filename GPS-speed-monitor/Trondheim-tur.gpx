@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Xcode"> 
+
+<wpt lat="63.417219" lon="10.407078">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:00:05Z</time>
+</wpt>
+
+<wpt lat="63.416335" lon="10.407979">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:00:10Z</time>
+</wpt>
+
+<wpt lat="63.416143" lon="10.411477">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:00:20Z</time>
+</wpt>
+
+
+<wpt lat="63.414876" lon="10.411434">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:00:30Z</time>
+</wpt>
+
+
+<wpt lat="63.413647" lon="10.411971">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:00:40Z</time>
+</wpt>
+
+
+<wpt lat="63.412955" lon="10.409460">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:00:50Z</time>
+</wpt>
+
+
+<wpt lat="63.413080" lon="10.404375">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:01:00Z</time>
+</wpt>
+
+
+<wpt lat="63.412197" lon="10.399182">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:01:10Z</time>
+</wpt>
+
+
+<wpt lat="63.406434" lon="10.397873">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:01:20Z</time>
+</wpt>
+
+
+<wpt lat="63.396058" lon="10.391693">
+	<ele>0.000000</ele>
+	<time>2016-04-23T12:01:30Z</time>
+</wpt>
+
+
+
+</gpx>
